@@ -1,8 +1,23 @@
 aid: greenbytes
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/greenbytes.png
 name: GreenBytes
-description: GreenBytes is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: GreenBytes was a data-storage and desktop-virtualization company (patented VDI IO-offload
+  and inline data deduplication) backed by Battery Ventures, and was acquired by Oracle in June 2014.
+  Its product line was absorbed into Oracle and the former green-bytes.com domain now redirects to
+  Oracle Support. The company has no independent, active developer portal, OpenAPI definition, or
+  public API surface, so the enrichment pipeline found no real API artifacts to add. It is retained in
+  the API Evangelist network as a historical Battery Ventures portfolio-lead stub.
 url: https://raw.githubusercontent.com/api-evangelist/greenbytes/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +27,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-defunct: true
+x-acquired-by: oracle
+x-acquired-date: '2014-06-02'
 tags:
 - Company
+- Storage
+- Virtualization
+- Data Deduplication
+- VDI
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: Defunct company (acquired by Oracle 2014); no live API surface, no artifacts to add.
