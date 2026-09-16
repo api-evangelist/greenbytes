@@ -23,12 +23,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/greenbytes.png
 name: GreenBytes
-description: GreenBytes was a data-storage and desktop-virtualization company (patented VDI IO-offload and inline
-  data deduplication) backed by Battery Ventures, and was acquired by Oracle in June 2014. Its product line was
-  absorbed into Oracle and the former green-bytes.com domain now redirects to Oracle Support. The company has no
-  independent, active developer portal, OpenAPI definition, or public API surface, so the enrichment pipeline found
-  no real API artifacts to add. It is retained in the API Evangelist network as a historical Battery Ventures portfolio-lead
-  stub.
+description: GreenBytes was a data-storage and desktop-virtualization company (patented VDI IO-offload
+  and inline data deduplication) backed by Battery Ventures, and was acquired by Oracle in June 2014.
+  Its product line was absorbed into Oracle and the former green-bytes.com domain now redirects to Oracle
+  Support. The company has no independent, active developer portal, OpenAPI definition, or public API
+  surface, so the enrichment pipeline found no real API artifacts to add. It is retained in the API Evangelist
+  network as a historical Battery Ventures portfolio-lead stub.
 url: https://raw.githubusercontent.com/api-evangelist/greenbytes/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -38,7 +38,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-08-21'
+modified: '2026-09-15'
 x-defunct: true
 x-acquired-by: oracle
 x-acquired-date: '2014-06-02'
@@ -72,3 +72,4 @@ common:
 x-parent: oracle
 x-relationship: acquisition
 x-acquired: 2014
+x-status: defunct
